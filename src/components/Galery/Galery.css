@@ -1,0 +1,14 @@
+
+h1{
+    text-align: center;
+}
+
+.Galery{
+
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}

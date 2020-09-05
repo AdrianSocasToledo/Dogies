@@ -1,0 +1,19 @@
+
+
+div nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #7f5341;
+}
+
+.logoHeader{
+    font-size: 25px;
+    margin-left: 5%;
+}
+.DropDownList{
+    position: absolute;
+    right: 5%; 
+    max-width: 200px;
+}

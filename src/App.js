@@ -1,24 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import 'react-widgets/dist/css/react-widgets.css';
+
+import Header from './components/Templates/Header'
+import Galery from './components/Galery/Galery'
 
 function App() {
+
+  const [selectedBreed,setSelectedBreed] = useState("")
+
+  const handleSelectedBreed = (selectedBreed) => {
+    setSelectedBreed(selectedBreed);
+  }
+
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <Header onSelectedBreed={handleSelectedBreed} className="Header"/>
+        <Galery selectedBreed={selectedBreed} />
+      </div>
+      
     </div>
   );
 }

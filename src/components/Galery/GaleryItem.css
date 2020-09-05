@@ -1,0 +1,15 @@
+.GaleryItem{
+    margin: 20px;
+}
+
+.GaleryItem img{
+    width: 300px;
+    height: 300px;
+}
+
+/*
+.GaleryItem img:hover{
+    width: 350px;
+    height: 350px;
+    border: solid black 1px;
+}*/
