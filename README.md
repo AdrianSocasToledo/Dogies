@@ -1,6 +1,6 @@
 
 # Galería de imágenes
-Aplicación https://dogies.vercel.app
+Aplicación [Dogies](https://dogies.vercel.app)
 
 Este proyecto ha sido diseñado con el objetivo de practicar React. 
 Más concretamente: 
